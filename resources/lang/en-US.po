@@ -1,0 +1,23 @@
+# module
+# ------------
+
+msgid "Timeline"
+msgstr "Timeline"
+
+msgid "A webtrees timeline tab for an individual (similar to Ancestry or FamilySearch)"
+msgstr "A webtrees timeline tab for an individual (similar to Ancestry or FamilySearch)"
+
+msgid "Facts to display"
+msgstr "Facts to display"
+
+msgid "Family Facts"
+msgstr "Family Facts"
+
+msgid "Associate Facts"
+msgstr "Associate Facts"
+
+msgid "Relative Facts"
+msgstr "Relative Facts"
+
+msgid "Historic Facts"
+msgstr "Historic Facts"

@@ -1,0 +1,20 @@
+msgid "Timeline"
+msgstr "Zeitleiste"
+
+msgid "A webtrees timeline tab for an individual (similar to Ancestry or FamilySearch)"
+msgstr "Eine Zeitleiste Registerkarte für eine Einzelperson (ähnlich wie Ancestry oder FamilySearch)"
+
+msgid "Facts to display"
+msgstr "Anzuzeigende Fakten"
+
+msgid "Family Facts"
+msgstr "Familienfakten"
+
+msgid "Associate Facts"
+msgstr "Assoziierte Fakten"
+
+msgid "Relative Facts"
+msgstr "Verwandte Fakten"
+
+msgid "Historic Facts"
+msgstr "Historische Fakten"

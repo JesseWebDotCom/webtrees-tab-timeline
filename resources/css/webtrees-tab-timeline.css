@@ -1,0 +1,149 @@
+/* Timeline Container */
+.timeline_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px auto;
+    padding-left: 40px;
+  }
+
+/* Outer Layer with the timeline border */
+.timeline_outer {
+    border-left: 2px solid var(--bs-body-color);
+}
+
+/* Card container */
+.timeline_card {
+    position: relative;
+    margin: 0 0 10px 10px;
+    padding: 0px;
+    padding-left: 5px;
+    border-radius: 8px;
+    border: 1px solid var(--bs-body-color) !important;
+    background-color: var(--bs-accordion-bg);
+}
+
+/* Information about the timeline */
+.timeline_info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.timeline_content {
+    display: flex;
+}
+
+.timeline_content_column {
+    display: flex;
+    flex-direction: column;
+    white-space: pre-wrap;
+}            
+
+.timeline_text {
+    flex: 1;
+}
+
+.timeline_image {
+    min-width: 70px;
+    min-height: 50px;
+    position: relative;
+}
+
+.timeline_image .image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: rgba(var(--bs-nav-pills-link-active-bg-rgb), .25);
+}
+
+.timeline_image {
+    position: relative;
+  }
+  
+
+  .timeline_value {
+    font-weight: 700;
+    /* font-style: italic; */
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+
+  }
+
+  .timeline_date, .timeline_place {
+    font-size: 13px;
+}
+
+/* Year and Age */
+.timeline_year-age {
+    position: absolute;
+    left: -55px;
+    top: 21px;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Year */
+.timeline_year {
+    font-weight: bold;
+}
+
+/* Age */
+.timeline_age {
+    font-style: italic;
+}
+
+/* Title of the card */
+.timeline_title {
+    font-weight: 700;
+    position: relative;
+}
+
+/* Timeline dot  */
+.timeline_title::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: var(--bs-body-color);
+    border-radius: 999px;
+    left: -21.5px;
+    top: 5px;
+    border: 3px solid var(--bs-body-color);
+}
+
+.timeline_image {
+    position: relative;
+  }
+  
+  .timeline_image .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1; /* Add a z-index to control stacking order */
+  }
+  
+  .timeline_image .icon::before {
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+  }
+  
+  .timeline_image .wt-individual-silhouette-f, .timeline_image .wt-individual-silhouette-m, 
+  .timeline_image .wt-individual-silhouette-u, .timeline_image .wt-individual-silhouette-x {
+    width: 100%;
+    padding-left: 0px !important;
+}
+  

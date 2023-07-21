@@ -1,0 +1,35 @@
+<?php
+
+use Fisharebest\Webtrees\I18N;
+use Fisharebest\Webtrees\Http\RequestHandlers\ControlPanel;
+
+?>
+
+<?= view('components/breadcrumbs', ['links' => [route(ControlPanel::class) => I18N::translate('Control panel'), $title]]) ?>
+
+<h1><?= $title ?></h1>
+<?= I18N::translate('A webtrees timeline tab for an individual (similar to Ancestry or FamilySearch)') ?>
+<br><br>
+<div class="mb-5">
+
+    <style>
+        .form-check, .form-check-inline  {display: block !important;}
+    </style>
+    <form method="post">
+        <?= csrf_field() ?>
+        <input type="hidden" name="save" id="save" value="1">
+
+        <h5><?= I18N::translate('Facts to display') . ':' ?></h5>
+        <?= view('components/checkbox-inline', ['id' => 'familyfacts', 'label' => I18N::translate('Family Facts'), 'name' => 'familyfacts', 'checked' => (int)$familyfacts]) ?>
+        <?= view('components/checkbox-inline', ['id' => 'associatefacts', 'label' => I18N::translate('Associate Facts'), 'name' => 'associatefacts', 'checked' => (int)$associatefacts]) ?>
+        <?= view('components/checkbox-inline', ['id' => 'relativefacts', 'label' => I18N::translate('Relative Facts'), 'name' => 'relativefacts', 'checked' => (int)$relativefacts]) ?>
+        <?= view('components/checkbox-inline', ['id' => 'historicfacts', 'label' => I18N::translate('Historic Facts'), 'name' => 'historicfacts', 'checked' => (int)$historicfacts]) ?>
+        
+        <!-- SAVE BUTTON -->
+        <hr/>
+        <button type="submit" class="btn btn-primary">
+            <?= view('icons/save') ?>
+            <?= I18N::translate('save') ?>
+        </button>
+    </form>
+</div>
