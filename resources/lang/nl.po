@@ -1,20 +1,33 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: TheDutchJewel <thedutchjewel@gmail.com>\n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+
 msgid "Timeline"
 msgstr "Tijdlijn"
 
 msgid "A webtrees timeline tab for an individual (similar to Ancestry or FamilySearch)"
-msgstr "Een webtrees tijdlijn tabblad voor een individu (vergelijkbaar met Ancestry of FamilySearch)"
+msgstr "Een webtrees-tijdlijntabblad voor een persoon (vergelijkbaar met Ancestry of FamilySearch)"
 
 msgid "Facts to display"
 msgstr "Feiten om te tonen"
 
 msgid "Family Facts"
-msgstr "Familiefeiten"
+msgstr "Gezinsfeiten"
 
 msgid "Associate Facts"
-msgstr "Verbonden Feiten"
+msgstr "Feiten van gerelateerde personen"
 
 msgid "Relative Facts"
-msgstr "Relatieve Feiten"
+msgstr "Feiten van naaste verwanten"
 
 msgid "Historic Facts"
-msgstr "Historische Feiten"
+msgstr "Historische feiten"
